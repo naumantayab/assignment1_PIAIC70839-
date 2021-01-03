@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <!-- <p>Variable names can only contain , , $ and _ . For example $my_1stVariable.
+        Variables must begin with a ,  or . For example $name, _name or name
+        Variable names are case 
+        Variable names should not be JS </p> -->
+
+        <h2>Rules for naming JS variable</h2>
+        <p id="demo"></p>
+    <script>
+        var txt1 = 'numbers'
+        var txt2 = '$'
+        var txt3 = '_'
+        var txt4 = '_'
+        var txt5 = 'letter'
+        var txt6 = '$'
+        var txt7 = '_'
+        var txt8 = 'sensitive'
+        var txt9 = 'keywords'
+
+        document.getElementById('demo').innerHTML = 'Variable names can only contain, ' +  txt1 + ', ' + txt2 + txt3 + ' and ' + txt4 + ' . ' + 'For example : $my_1stVariable' + '<br>' + 'Variables must begin with a, ' + txt5 + ', ' + txt6 + ' or ' + txt7 + ' .For example $name, _name or name' + '<br>' + 'Variable names are case' + txt8 + '<br>' + 'Variable names should not be JS ' + txt9
+    </script>
+    </body>
+</html>

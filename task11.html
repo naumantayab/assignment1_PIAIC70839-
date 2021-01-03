@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <p id="demo"></p>
+    <script>
+        var cTemp = 25
+        var cToF = (cTemp * 9 / 5) + 32
+        var fTemp = 70
+        var fToC = (fTemp - 32) * 5 / 9
+
+        document.getElementById('demo').innerHTML = cTemp + '\xB0C is ' + cToF + ' \xB0F.' + '<br>' + fTemp + '\xB0F is ' + fToC + '\xB0C.'
+    </script>
+    </body>
+</html>

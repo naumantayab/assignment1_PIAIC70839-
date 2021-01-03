@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <p id="demo"></p>
+    <script>
+        var a = 2, b = 1;
+        var result1 = --a;
+        var result2 = --a - --b;
+        var result3 = --a - --b + ++b;
+        var result4 = --a - --b + ++b + b--;
+            
+        document.getElementById('demo').innerHTML = result1 + '<br>' + result2 + '<br>' + result3 + '<br>' + result4
+
+            // --a;
+            // --a - --b;
+            // --a - --b + ++b;
+            // --a - --b + ++b + b--;
+    </script>
+    </body>
+</html>

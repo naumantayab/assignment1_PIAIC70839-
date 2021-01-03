@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <h1>Currency in PKR</h1>
+    <p id="demo"></p>
+    <script>
+        var value1 = 1
+        value1 = 155
+        var convert1 = value1 * 10
+        if (value1 == 155) {
+            alert('Currency in US : ' + convert1)
+        }
+        var value2 = 1
+        value2 = 41
+        var convert2 = value2 * 25
+        if (value2 == 41) {
+            alert('Currency in Saudi Riyal : ' + convert2)
+        }
+        var sum = convert1 + convert2
+        alert('Total Currency : ' + sum)
+        document.getElementById('demo').innerHTML = 'Total Currency in PKR : ' + sum
+    </script>
+</body>
+
+</html>
